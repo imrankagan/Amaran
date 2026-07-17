@@ -38,13 +38,12 @@ body {
   padding: 2rem;
 }
 
-.logo-slot {
-  width: 72px;
-  height: 72px;
+.logo {
+  width: 140px;
+  height: auto;
   margin: 0 auto 1.5rem;
-  border: 1px solid var(--line);
-  border-radius: 50%;
-  visibility: hidden;
+  display: block;
+  mix-blend-mode: multiply;
 }
 
 .brand {
