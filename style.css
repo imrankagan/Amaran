@@ -1,7 +1,7 @@
 :root {
   --ink: #1a1a1a;
   --muted: #6b6b6b;
-  --bg: #ffffff;
+  --bg: #fffafa;
   --line: #e4e4e4;
 }
 
@@ -9,7 +9,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
@@ -17,10 +18,19 @@ html, body {
 body {
   background: var(--bg);
   color: var(--ink);
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family:
+    "DM Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Helvetica,
+    Arial,
+    sans-serif;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  padding-top: 16vh;
+  font-optical-sizing: auto;
 }
 
 .wrap {
@@ -34,26 +44,27 @@ body {
   margin: 0 auto 1.5rem;
   border: 1px solid var(--line);
   border-radius: 50%;
+  visibility: hidden;
 }
 
 .brand {
   font-family: "Tenor Sans", serif;
-  font-size: clamp(2rem, 6vw, 3.25rem);
+  font-size: clamp(2.9rem, 8vw, 6rem);
   font-weight: 400;
-  letter-spacing: 0.14em;
-  margin: 0 0 0.75rem;
+  letter-spacing: 0.12em;
+  margin: 0 0 8rem;
 }
 
 .tagline {
-  font-size: 1.05rem;
+  font-size: 0.9rem;
   color: var(--ink);
   margin: 0 0 0.25rem;
 }
 
 .status {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   color: var(--muted);
-  margin: 0 0 2rem;
+  margin: 0 0 8rem;
 }
 
 .contact {
@@ -62,7 +73,7 @@ body {
   text-decoration: none;
   border-bottom: 1px solid var(--ink);
   padding-bottom: 2px;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   letter-spacing: 0.02em;
 }
 
