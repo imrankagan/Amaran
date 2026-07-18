@@ -38,6 +38,63 @@ body {
   padding: 2rem;
 }
 
+.frame-edge {
+  position: fixed;
+  pointer-events: none;
+}
+
+.edge-top,
+.edge-bottom {
+  left: 24px;
+  width: calc(100% - 48px);
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    #c9a9dd 0%,
+    #c9a9dd 6%,
+    #d4af37 18%,
+    #ffffff 30%,
+    #ffffff 70%,
+    #d4af37 82%,
+    #c9a9dd 94%,
+    #c9a9dd 100%
+  );
+}
+
+.edge-top {
+  top: 24px;
+}
+
+.edge-bottom {
+  bottom: 24px;
+}
+
+.edge-left,
+.edge-right {
+  top: 24px;
+  height: calc(100% - 48px);
+  width: 1px;
+  background: linear-gradient(
+    to bottom,
+    #c9a9dd 0%,
+    #c9a9dd 6%,
+    #d4af37 18%,
+    #ffffff 38%,
+    #ffffff 62%,
+    #d4af37 82%,
+    #c9a9dd 94%,
+    #c9a9dd 100%
+  );
+}
+
+.edge-left {
+  left: 24px;
+}
+
+.edge-right {
+  right: 24px;
+}
+
 .logo {
   width: 140px;
   height: auto;
