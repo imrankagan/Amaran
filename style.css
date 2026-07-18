@@ -56,7 +56,7 @@ body {
 .edge-bottom {
   left: 12px;
   width: calc(100% - 24px);
-  height: 1px;
+  height: 0.6px;
   background: linear-gradient(to right, var(--frame-stops));
 }
 
@@ -72,7 +72,7 @@ body {
 .edge-right {
   top: 12px;
   height: calc(100% - 24px);
-  width: 1px;
+  width: 0.6px;
   background: linear-gradient(to bottom, var(--frame-stops));
 }
 
@@ -89,13 +89,14 @@ body {
   font-size: clamp(2.9rem, 8vw, 6rem);
   font-weight: 400;
   letter-spacing: 0.12em;
-  margin: 0 0 1.25rem;
+  margin: 0 0 1rem;
 }
 
 .tagline {
-  font-family: "Tenor Sans", serif;
-  font-size: 0.95rem;
-  letter-spacing: 0.4em;
+  font-family: "DM Sans", sans-serif;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  font-weight: 375;
+  letter-spacing: 0.18em;
   color: var(--ink);
   margin: 0 0 8rem;
   padding-left: 0.4em;
@@ -103,6 +104,7 @@ body {
 
 .status {
   font-size: 0.85rem;
+  font-weight: 350;
   color: var(--muted);
   margin: 0 0 8rem;
 }
@@ -113,7 +115,8 @@ body {
   text-decoration: none;
   border-bottom: 1px solid var(--ink);
   padding-bottom: 2px;
-  font-size: 0.92rem;
+  font-size: 0.85rem;
+  font-weight: 350;
   letter-spacing: 0.02em;
 }
 
