@@ -2,14 +2,12 @@
   --ink: #094230;
   --muted: #6b6b6b;
   --bg: #f7f5f0;
-  --frame-stops:
-    var(--ink) 0%, var(--ink) 6%, var(--bg) 30%, var(--bg) 70%,
-    var(--ink) 94%, var(--ink) 100%;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --ink: #f7f5f0;
+    --muted: #a8a8a8;
     --bg: #094230;
   }
 }
@@ -47,47 +45,9 @@ body {
   padding: 2rem;
 }
 
-.frame-edge {
-  position: fixed;
-  pointer-events: none;
-}
-
-.edge-top,
-.edge-bottom {
-  left: 12px;
-  width: calc(100% - 24px);
-  height: 1px;
-  background: linear-gradient(to right, var(--frame-stops));
-}
-
-.edge-top {
-  top: 12px;
-}
-
-.edge-bottom {
-  bottom: 12px;
-}
-
-.edge-left,
-.edge-right {
-  top: 12px;
-  height: calc(100% - 24px);
-  width: 1px;
-  background: linear-gradient(to bottom, var(--frame-stops));
-}
-
-.edge-left {
-  left: 12px;
-}
-
-.edge-right {
-  right: 12px;
-}
-
 .brand {
   font-family: "Tenor Sans", serif;
   font-size: clamp(2.9rem, 8vw, 6rem);
-  font-weight: 400;
   letter-spacing: 0.12em;
   margin: 0 0 1rem;
 }
