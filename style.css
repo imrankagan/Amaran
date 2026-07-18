@@ -96,7 +96,7 @@ body {
   font-family: "Tenor Sans", serif;
   font-size: 0.95rem;
   letter-spacing: 0.4em;
-  color: var(--muted);
+  color: var(--ink);
   margin: 0 0 8rem;
   padding-left: 0.4em;
 }
