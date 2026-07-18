@@ -89,7 +89,16 @@ body {
   font-size: clamp(2.9rem, 8vw, 6rem);
   font-weight: 400;
   letter-spacing: 0.12em;
+  margin: 0 0 1.25rem;
+}
+
+.tagline {
+  font-family: "Tenor Sans", serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.4em;
+  color: var(--muted);
   margin: 0 0 8rem;
+  padding-left: 0.4em;
 }
 
 .status {
