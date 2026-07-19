@@ -1,13 +1,13 @@
 :root {
   --ink: #094230;
   --muted: #738882;
-  --bg: #fffcf6;
+  --bg: #fcfbf7;
 }
 
 /* Dark mode disabled for now — keep block for later re-enable.
 @media (prefers-color-scheme: dark) {
   :root {
-    --ink: #fffcf6;
+    --ink: #fcfbf7;
     --muted: #738882;
     --bg: #094230;
   }
