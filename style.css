@@ -4,6 +4,7 @@
   --bg: #fffcf6;
 }
 
+/* Dark mode disabled for now — keep block for later re-enable.
 @media (prefers-color-scheme: dark) {
   :root {
     --ink: #fffcf6;
@@ -11,6 +12,7 @@
     --bg: #094230;
   }
 }
+*/
 
 * {
   box-sizing: border-box;
