@@ -1,13 +1,13 @@
 :root {
   --ink: #094230;
-  --muted: #6b6b6b;
-  --bg: #f7f5f0;
+  --muted: #738882;
+  --bg: #fffcf6;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --ink: #f7f5f0;
-    --muted: #a8a8a8;
+    --ink: #fffcf6;
+    --muted: #738882;
     --bg: #094230;
   }
 }
@@ -54,9 +54,9 @@ body {
 
 .tagline {
   font-family: "DM Sans", sans-serif;
-  font-size: clamp(0.8rem, 2vw, 1rem);
-  font-weight: 375;
-  letter-spacing: 0.18em;
+  font-size: clamp(0.6rem, 2vw, 0.88rem);
+  font-weight: 450;
+  letter-spacing: 0.16em;
   color: var(--ink);
   margin: 0 0 8rem;
   padding-left: 0.4em;
