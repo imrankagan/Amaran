@@ -16,6 +16,12 @@
   box-sizing: border-box;
 }
 
+html {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
 html,
 body {
   height: 100%;
@@ -83,4 +89,16 @@ body {
 .contact:hover {
   color: var(--muted);
   border-color: var(--muted);
+}
+
+.footer {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 0.6rem;
+  font-weight: 375;
+  letter-spacing: 0.05em;
+  color: var(--muted);
 }
