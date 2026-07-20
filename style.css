@@ -1,18 +1,10 @@
 :root {
-  --ink: #094230;
-  --muted: #738882;
-  --bg: #fcfbf7;
+  --ink: #111111;
+  --muted: #868686;
+  --bg: #fdfdfc;
+  --brand-color: #00a283;
+  --tagline-color: #00a283;
 }
-
-/* Dark mode disabled for now — keep block for later re-enable.
-@media (prefers-color-scheme: dark) {
-  :root {
-    --ink: #fcfbf7;
-    --muted: #738882;
-    --bg: #094230;
-  }
-}
-*/
 
 * {
   box-sizing: border-box;
@@ -57,22 +49,23 @@ body {
   font-family: "Tenor Sans", serif;
   font-size: clamp(2.9rem, 8vw, 6rem);
   letter-spacing: 0.12em;
+  color: var(--brand-color);
   margin: 0 0 1rem;
 }
 
 .tagline {
   font-family: "DM Sans", sans-serif;
-  font-size: clamp(0.6rem, 2vw, 0.88rem);
-  font-weight: 450;
+  font-size: clamp(0.6rem, 2vw, 0.7rem);
+  font-weight: 375;
   letter-spacing: 0.16em;
-  color: var(--ink);
+  color: var(--tagline-color);
   margin: 0 0 8rem;
   padding-left: 0.4em;
 }
 
 .status {
-  font-size: 0.85rem;
-  font-weight: 350;
+  font-size: 0.8rem;
+  font-weight: 375;
   color: var(--muted);
   margin: 0 0 8rem;
 }
@@ -83,8 +76,8 @@ body {
   text-decoration: none;
   border-bottom: 1px solid var(--ink);
   padding-bottom: 2px;
-  font-size: 0.85rem;
-  font-weight: 350;
+  font-size: 0.82rem;
+  font-weight: 375;
   letter-spacing: 0.02em;
 }
 

@@ -1,5 +1,5 @@
 # Amaran Renk Paleti
 
-- **Fildişi Beyaz** — `#F7F5F0` (arka plan / `--bg`)
-- **Gece Zümrütü** — `#094230` (yazı rengi / `--ink`)
-- **Pantone Yeşili (Emerald)** — `#009B77` (referans / olası vurgu rengi)
+- **Fildişi Beyaz** — `#FDFDFc` (arka plan / `--bg`)
+- **Premium Siyah** — `#111111` (yazı rengi / `--ink`)
+- **Zümrüt & Yeşim** — `#00a283` (brand ve tag rengi)
