@@ -36,38 +36,27 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 16vh;
+  padding: 3vh 1rem 5rem;
   font-optical-sizing: auto;
 }
 
 .wrap {
   text-align: center;
-  padding: 2rem;
+  width: 100%;
 }
 
-.brand {
-  font-family: "Tenor Sans", serif;
-  font-size: clamp(2.9rem, 8vw, 6rem);
-  letter-spacing: 0.12em;
-  color: var(--brand-color);
-  margin: 0 0 1rem;
-}
-
-.tagline {
-  font-family: "DM Sans", sans-serif;
-  font-size: clamp(0.6rem, 2vw, 0.88rem);
-  font-weight: 375;
-  letter-spacing: 0.18em;
-  color: var(--tagline-color);
-  margin: 0 0 8rem;
-  padding-left: 0.4em;
+.logo {
+  display: block;
+  width: min(100%, 58rem);
+  height: auto;
+  margin: 0 auto -2rem;
 }
 
 .status {
   font-size: 0.8rem;
   font-weight: 300;
   color: var(--muted);
-  margin: 0 0 8rem;
+  margin: 0 0 5rem;
 }
 
 .contact {
