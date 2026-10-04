@@ -3,33 +3,180 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Amaran — çok yakında." />
-    <meta name="color-scheme" content="light" />
-    <meta name="theme-color" content="#fdfdfd" />
-    <!-- Dark mode disabled for now — keep for later re-enable.
-    <meta name="theme-color" content="#341957" media="(prefers-color-scheme: dark)" />
-    -->
-    <title>Amaran</title>
-    <link rel="icon" href="data:," />
+    <meta
+      name="description"
+      content="AMARAN — The Origin of Wellbeing. Güzellik, bakım, estetik ve gençleşmeye bütünsel bir bakış."
+    />
+    <meta name="theme-color" content="#173d35" />
+    <title>AMARAN — The Origin of Wellbeing</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=DM+Sans:opsz,wght@9..40,300;9..40,325;9..40,350;9..40,375;9..40,400;9..40,450&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@400;450;500&family=Tenor+Sans&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <main class="wrap">
-      <h1 class="brand">AMARAN</h1>
-      <p class="tagline">EBEDİ</p>
-      <p class="status">Şu anda yapım aşamasındayız.</p>
-      <a class="contact" href="mailto:info@amaranorigin.com"
-        >info@amaranorigin.com</a
+    <a class="skip" href="#main">İçeriğe geç</a>
+    <header class="header">
+      <a class="logo" href="#" aria-label="AMARAN ana sayfa"
+        >AMARAN<span>WELLBEING</span></a
       >
+      <button
+        class="menu-toggle"
+        aria-label="Menüyü aç"
+        aria-controls="navigation"
+        aria-expanded="false"
+      >
+        <span></span><span></span>
+      </button>
+      <nav id="navigation" aria-label="Ana menü">
+        <a href="#yaklasim">Yaklaşımımız</a><a href="#dunya">Amaran Dünyası</a
+        ><a href="#ebedi">Ebedi</a
+        ><a class="nav-contact" href="#iletisim">Bize ulaşın</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/origin.webp"
+          alt="Gün ışığı, doğal taş ve durgun suyla tasarlanmış bir wellbeing mekânı konsepti"
+          fetchpriority="high"
+          width="1536"
+          height="1024"
+        />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">THE ORIGIN OF WELLBEING</p>
+          <h1 id="hero-title">Wellbeing’in<br /><em>başlangıç noktası.</em></h1>
+          <p class="hero-description">
+            Güzellik, estetik ve gençleşme.<br />Kendinize ayırdığınız zamanın
+            yeni anlamı.
+          </p>
+          <p class="hero-sub">Yakında hizmetinizde olacağız.</p>
+          <a class="light-link" href="#yaklasim">AMARAN’ı keşfedin</a>
+        </div>
+        <div class="hero-bottom">
+          <span>GÜZELLİK · ESTETİK · GENÇLEŞME</span
+          ><a href="#yaklasim"
+            >Keşfetmek için kaydırın
+            <span class="scroll-line" aria-hidden="true"></span
+          ></a>
+        </div>
+      </section>
+      <section id="yaklasim" class="intro section">
+        <div class="section-label">
+          <span> YAKLAŞIMIMIZ</span
+          ><span class="small-star" aria-hidden="true">✳</span>
+        </div>
+        <div class="intro-main">
+          <h2>Güzellikten fazlası.<br /><em>Wellbeing.</em></h2>
+          <div class="intro-copy">
+            <p>
+              Güzellik, estetik, gençleşme ve iyileşme. AMARAN, birbirini
+              tamamlayan bu alanları tek bir odakta sunuyor.
+            </p>
+            <p>
+              Daha iyi görünmek, daha iyi hissetmek ve yaşam kalitenizi
+              desteklemek adına AMARAN, bunun başlangıç noktası olma fikriyle
+              doğuyor.
+            </p>
+            <span class="signature"
+              >AMARAN <span>—</span> The Origin of Wellbeing</span
+            >
+          </div>
+        </div>
+      </section>
+      <section id="dunya" class="world section">
+        <div class="section-label">
+          <span> AMARAN DÜNYASI</span><span>WELLBEING</span>
+        </div>
+        <div class="world-heading">
+          <h2>Güzellik, bakım,<br /><em>estetik ve ötesi.</em></h2>
+          <p>
+            Birbirini tamamlayan şeyler.<br />Sen ve Ben gibi.<br />Wellbeing
+            ile tanışın.
+          </p>
+        </div>
+        <div class="world-grid">
+          <article>
+            <span class="card-number"></span>
+            <h3>Güzellik &amp; estetik</h3>
+            <p>
+              Görünümünüze yönelik estetik beklentileriniz ve kişisel
+              tercihleriniz. Size uygun bir güzellik anlayışı.
+            </p>
+            <span class="card-footer">DOĞALLIK · UYUM</span>
+          </article>
+          <article>
+            <span class="card-number"></span>
+            <h3>Bakım &amp; gençleşme</h3>
+            <p>
+              Cilt ve beden bakımı, canlılık ve gençleşme. İhtiyaçlarınız
+              değiştikçe size eşlik eden bir bakım yaklaşımı.
+            </p>
+            <span class="card-footer">ÖZEN · SÜREKLİLİK</span>
+          </article>
+          <article>
+            <span class="card-number"></span>
+            <h3>Rahatlama &amp; yenilenme</h3>
+            <p>
+              Dinlenme, rahatlama ve toparlanma. Bedeninize zaman ayırmak ve
+              kendinizi daha iyi hissetmek.
+            </p>
+            <span class="card-footer">DİNGİNLİK · YENİLENME</span>
+          </article>
+        </div>
+      </section>
+      <section id="ebedi" class="philosophy">
+        <p class="eyebrow">FELSEFEMİZ</p>
+        <h2>EBEDİ</h2>
+        <p class="philosophy-sub">Her anın ötesinde.</p>
+        <div class="philosophy-rule"></div>
+        <p class="philosophy-copy">
+          İhtiyaçlarınız ve beklentileriniz değiştikçe, AMARAN da sizinle
+          birlikte değişiyor.<br />Her anın ötesinde, kendinize ayırdığınız
+          zamanın yeni anlamı.
+        </p>
+        <span class="philosophy-bottom">ZAMANSIZ BİR WELLBEING ANLAYIŞI</span>
+      </section>
+      <section id="iletisim" class="contact section">
+        <div class="section-label">
+          <span> İLETİŞİM</span><span>BAŞLANGIÇ NOKTANIZ</span>
+        </div>
+        <div class="contact-main">
+          <h2>Tanışmak,<br /><em>ikimiz için de en güzel başlangıç.</em></h2>
+          <div>
+            <p>
+              AMARAN hakkında sorularınız, iş birliği fikirleriniz ve tüm
+              iletişim talepleriniz için bize yazın.
+            </p>
+            <a class="email" href="mailto:info@amaranorigin.com"
+              >info@amaranorigin.com</a
+            >
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="footer">
-      Telif Hakkı © 2026 Amaran Inc. Tüm hakları saklıdır.
+    <footer>
+      <div class="footer-top">
+        <a class="footer-logo" href="#"
+          >AMARAN<span>THE ORIGIN OF WELLBEING</span></a
+        >
+        <div class="footer-links">
+          <a href="#yaklasim">Yaklaşımımız</a><a href="#dunya">Amaran Dünyası</a
+          ><a href="#ebedi">Ebedi</a>
+        </div>
+        <span class="footer-motto">Kendinize ayırdığınız zaman.</span>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 AMARAN. Tüm hakları saklıdır.</span
+        ><span>amaranorigin.com</span><a href="#">Başa dön</a>
+      </div>
     </footer>
   </body>
 </html>
